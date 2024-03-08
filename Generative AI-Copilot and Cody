@@ -1,0 +1,294 @@
+
+GitHub Copilot  
+
+https://sway.cloud.microsoft/CDk2wNmBFYxvq1nc?ref=Link
+
+GitHub Copilot · Your AI pair programmer
+https://teams.microsoft.com/l/message/19:meeting_NzA1MzI5YjgtMzMyMS00YzViLTliZmYtY2ZjZmJmOWU5ODQ4@thread.v2/1709095890512?context=%7B%22contextType%22%3A%22chat%22%7D
+
+
+
+Generative AI
+Prompt engineering foundations and best practices - Training | Microsoft Learn
+https://teams.microsoft.com/l/message/19:meeting_NzA1MzI5YjgtMzMyMS00YzViLTliZmYtY2ZjZmJmOWU5ODQ4@thread.v2/1709096258903?context=%7B%22contextType%22%3A%22chat%22%7D
+
+
+GitHub Copilot Security: GitHub Security
+GitHub Copilot FAQ: https://github.com/features/copilot#faq
+GitHub Copilot Individual vs Business:
+About GitHub Copilot Business - GitHub Docs
+
+
+
+Pre-requisites for PaaS:
+------------------------
+
+In our labs, using GitHub Codespaces. - Prebuild environment either we can use codespace environment or Install IDE and corresponding copilot extension
+
+Personal GitHub Account.
+
+GitHub Codespaces can be created using the Personal GitHub Account.
+
+A GitHub Copilot account can be created using the Personal GitHub Account.
+
+
+GitHub Copilot Individual - Less Security Features
+GitHub Copilot Business - Security Features
+GitHub Copilot Enterprise - Security Features
+
+GitHub Copilot Business
+GitHub Copilot is available through GitHub personal accounts with GitHub Copilot Individual, or through organization or enterprise accounts with GitHub Copilot Business and GitHub Copilot Enterprise.
+Copilot Business allows you to control who can use GitHub Copilot in your company. Once you give access to an organization, its admins can then give access to individuals and teams.
+With Copilot Business, GitHub Copilot is open to every developer, team and organization, and enterprise.
+With features like code completions, chat in IDE and mobile, security vulnerabilities filter, code referencing, public code filter, IP indemnity, and enterprise-grade security, safety, and privacy, GitHub Copilot Business is focused on making organizations more productive, secure, and fulfilled. These features allow developers to code faster and enables them to focus on more satisfying work.
+
+GitHub Copilot Enterprise
+GitHub Copilot Enterprise is available for organizations through GitHub Enterprise Cloud.
+Copilot Enterprise allows your teams of developers to quickly get up to speed on your codebase, search through and build documentation, get suggestions based on internal and private code, and quickly review pull requests.
+GitHub Copilot Enterprise includes everything in GitHub Copilot Business as well as an additional layer of personalization for organizations and integration into GitHub as a chat interface to allow developers to converse about their codebase and action buttons throughout the platform. GitHub Copilot Enterprise can index an organization’s codebase for a deeper understanding of the customer’s knowledge for more tailored suggestions and will offer customers access to GitHub Copilot Customization to fine-tune custom, private models for code completion.
+
+How to set up GitHub Copilot
+============================
+To use GitHub Copilot, you need the following:
+
+Create a GitHub account, as Copilot is a GitHub service, you need a GitHub account to use the service.
+
+Sign up, you need to sign up for Copilot via its web page.
+
+In GitHub select on your profile then head over to settings where under Copilot you can enable access or sign up for a free trial.
+
+To use GitHub Copilot, you need to install it as an extension into your IDE.
+
+Extensions are available for major IDEs like Visual Studio, Visual Studio Code.
+
+
+Ctrl+ I - open Copilot inline chat. to query the prompt to generate the code. - Crafted prompts to generate suggestions from GitHub Copilot
+
+How it recognizes prompts
+==========================
+Copilot can tell that something is a prompt, an instruction if you:
+
+Type it as a comment in a code file with a file ending like .py or .js for example.
+
+Type text in a markdown file and wait for Copilot to return a response within a few second.
+
+Accepting suggestions
+======================
+What you’re getting back from Copilot is a suggestion, text that shows itself as grey code, if you use black as your text color. To accept the suggestion, you need to press the “Tab” key.
+
+Copilot might suggest more than one thing, and you can to cycle between suggestion using Ctrl + Enter key and select the most appropriate one.
+
+Tab - Acceptance
+Ctrl+right row - word by word
+
+Keyboard shortcuts for Windows
+
+Action                                                                   Shortcut
+
+Accept an inline suggestion                                              Tab
+Dismiss an inline   suggestion                                           Esc
+
+Show next inline suggestion                                              Alt+]
+
+Show previous inline   suggestion                                        Alt+[
+
+Trigger inline suggestion                                                Alt+\
+
+Open GitHub Copilot   (additional suggestions in separate pane)         Ctrl+Enter
+
+Toggle GitHub Copilot   on/off                                          No default shortcut
+
+Reference:
+
+Configuring GitHub Copilot in your environment - GitHub Docs
+
+
+
+
+// Create an API endpoint - when go to next line it will generate the code
+// Create an API endpoint using the React framework that accepts a JSON payload in a POST request
+/* add an amazing animation to the social icons */ - To Descripe the code
+
+Ctrl +I - User can enter any where in the code type Ctrl+I in between the code to modify to another concept like modify the code to Lambdas..
+
+cycle between suggestions, you can do this using Ctrl+Enter (or Cmd+Enter on a Mac). You get various suggestions from Copilot, and you can pick the best output.
+create an HTML form with a text field and button
+Add an event listen to the button to send a POST request to /generate endpoint and display response in a div with id "result"
+
+
+
+Copilot - Ctrl+I - Inline chat
+			Explain the code -  this will explain the code in the copilot chat
+			Generate Docs  /Doc - to genearte comment line to explain the code
+		   fix the code  /fix - to fix the code issues
+		   test the code  /test - To add additional test coverages
+		   
+		   
+Python Web API
+When complete, Codespaces loads with a terminal section at the bottom. Codespaces installs all the required extensions in your container. Once the package installs are completed, Codespaces will execute the uvicorn command to start your web application running within your Codespace.
+When the web application has successfully started, a message in the terminal shows that the server is running on port 8000 within your Codespace.
+
+/<<Commands> - when type "/" it will list out the commands
+#<Reference of the File> - If you want to give a  reference to the file prefix with "#"
+
+For Example: User can ask Copilot to explain the code between line 10 to 14 - 
+			User can give a reference to the file using #, like explain the code between line 10 to 14 from #employee.py
+			
+			
+Google Codey
+============
+Cloud Computing Services | Google Cloud - https://cloud.google.com/?hl=en
+
+user name: gmaild  and password
+Google Cloud Platform
+https://console.cloud.google.com/
+
+The available services can be seen once we logged in from the left hand side panel.
+
+Google Codeys  - Access
+=======================
+Vertex AI - Platform
+Code propt - Code Prompt
+Code chat - chat window
+Duet AI - chat bot service  
+Integrating as a plugin in the IDEs. - we can make use of integration as a plugin with in the ID also.
+
+Overview of Generative AI on Vertex AI - https://cloud.google.com/vertex-ai/generative-ai/docs/learn/overview
+
+Vertex AI:
+ - Search by Verter AI in the prompt top header
+  - Right side nav bar shows all useful learning informations.
+  - Left side nav bar shows AI models
+  
+Vertex AI Studio is platform, the prebuild AI model we can try, 
+
+
+MultiModel:
+ Vertex AI studio - Left Nav bar -> MultiModel - Text + Image and we can ask question from Vertex AI
+Language : This is another model where we can Generate a text/Start a conversation using the respective prompts
+ - Generate a text
+   - Text Prompt 
+   - Code Prompt - more than 20+ languages supporting by Google codey
+ - Start a conversation
+   - Text Chat
+   - Code chat
+   
+ Actual Codey has been sorted on PaLM2 model.
+ 
+ 
+Before Gemini Model, PaLM2 Model- Which generates the text generation, text analystis, sentiment analystis
+
+Now Gemini which is latest version also providing same features. Google codey using different models behind the scenes to perform the jobs.
+
+FEATURES:
+	- Code geneartion - Generate the code based on the natural languages prompts
+	- Code Completion - what will be the next few lines of code to compelte the code. 
+	- Code Chart - If I want to continue the context and get more lines of the code/ more quality/new concepts...
+
+BENEFITS:
+ Coding speed, Connectivity of code like less code/less lines of code, bridge the gap coding skills.
+ 
+ Prerequiste: 
+ Google Account
+ 
+
+ 
+ Prompt Design
+ ===============
+ Prompt design strategies  |  Google AI for Developers --https://ai.google.dev/docs/prompt_best_practices#define-the-format-of-the-response
+ 
+ Navigate to Text Prompt 
+ 
+ Right side we can see all the models like Gemini, PaLM2, codey(PaLM2) . Differnt models with differnet features like code generation, code completion
+  - If its ends with 3 digits its a stable version.
+  - Code generation using code baison
+  - Code completion usign code gecko
+  - Differnt features will use differnt version
+  
+ Foundation Models:
+  - PaLM2 Models, Gemini
+  
+  Built models called :
+  Code Bison - Code Generation
+  Code Gecko - Code Completion
+  
+  When Click on "Gemini" model latest version 1.0 pro-001 - will work both text and code as well.
+  
+  Need to select "Region" - It will work only on selected region. This is prequestie to submit the request(submit button will be enabled)
+  
+  When enter the query in the prompt and click on "Submit" the token count will be updated and generated cost based on token count.
+  
+  If change any settings it will be on model level settings
+  
+  Adjust the temprature will give another response
+  
+  Advanced settings:
+  How many number of layers wants to consider to pick your token, How many number of nodes you want to connect and want to get the token
+  
+  Top-K - Top-k changes how the model selects tokens for output. A top-k of 1 means the selected token is the most probable among all tokens in the model’s vocabulary (also called greedy decoding), while a top-k of 3 means that the next token is selected from among the 3 most probable tokens (using temperature).
+  
+  Top-P - Top-p changes how the model selects tokens for output. Tokens are selected from most probable to least until the sum of their probabilities equals the top-p value. For example, if tokens A, B, and C have a probability of .3, .2, and .1 and the top-p value is .5, then the model will select either A or B as the next token (using temperature).
+  
+ 
+ Code Prompt:
+ ============
+ 
+ By default select as "  Code Bison" - Code Generation, we can modify to latest version "Gemini-1.0 Pro-001"
+ 
+ Less temprature more creative, its truning the model.
+ 
+ Currently considering 4 characters as one token including spaces.
+ 
+	To run project with either one.
+	1. Google Project IDX- Enroll-Access ->Prebuilt IDEs with stack installations/libraries
+	2. GitHub Codespaces
+ 
+ Start Conversation - This is another model to use chat services
+ Code Chat- Conversation model to use to generate the code
+ 
+ If we are not define the language to generate the code it will generate by default python code. 
+ 
+ we can copy the error and ask from prompt.
+ 
+ Colab Enterprise - Preconfigured IDE where we can execute the code.
+  To Enable the APIs
+   Vertax API
+   Dataform API
+   Compute Engine API
+   
+   DuetAI + Tools- For Google Cloud code extension
+ Plugin for IDE - "Google Cloud Code" plug in will install from extensions of the IDE
+ 
+ Inorder to install "Google Cloud Code"  needs to install Google cloud CLI
+	if there is any error while install the dependencies, navigate to the Google Cloud CLI plug in alternate installation suggestion.
+	
+	>$ curl https://sdk.google.com |bash => you can execute the command from terminal
+	
+	
+	After installation
+	DuetAI button will be displayed IDE bottom of the page
+	Click on DuetAI button->click on Sign in-> enter Authentication code.
+	
+	Select DuetAI Project button from popup - Enable DuetAI API if asks
+	
+	after Restart the IDE user can see the project name, left nav bar showing "DuetAI" link
+	  - using the duet AI link we can ask questions.
+	  @commands
+	  @Help
+	  @Info
+	  @Restart
+	  @Clear
+	  
+	 If we give below instructions in the DuetAI prompt, 
+	 Code the below: 
+	 Create a React application with UI to accept a string from user
+	 Code the logic to python to print string in reverse order
+	 Provide the response to the logic to the user in the UI
+	 
+	 
+	 Google Model Garden
+	 ====================
+	 From Vertax AI ->select "Model Garden" and see the all the various models.
+	 Search by "Code-bison"to view the model details
+	 
+	 To store all model details in the "Model Registry" from Vertax AI left Nav 
